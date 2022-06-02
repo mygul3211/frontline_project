@@ -8,6 +8,7 @@ document.write("<br>");
 document.write("1+2="+ 3)
 document.write("<br>");
 
-document.write("<br>");
 document.write("1 + 2 = " + 1 + 2);
 document.write("<br>");
+
+document.write("1 + 2 =")
