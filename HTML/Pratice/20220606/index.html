@@ -4,18 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>In-line</title>
+    <title>Display | Block Vs Inline</title>
 </head>
 <body>
-    <button>hello</button>
-    <div class="button"></div>
+    <h1>Hello</h1>
+    <a href="">Google</a>
+    <a href="">Youtube</a>
+    <hr>
+    <table border="1px" cellspacing="0">
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Subject</th>
+        </tr>
+       
+        <tr>
+            <th>Start time</th>
+            <th>End time</th>
+        </tr>
+       
+        <tr>
+            <th>Monday</th>
+            <td>9:30</td>
+            <td>13:30</td>
+            <td>HTML & CSS</td>
+        </tr>
+        
+        <tr>
+            <th>Tuesday</th>
+            <td>9:30</td>
+            <td>13:30</td>
+            <td>IT+F</td>
+        </tr>
+       
+        <tr>
+            <th>Wednsday </th>
+            <td>9:30</td>
+            <td>13:30</td>
+            <td>Word/Excell</td>
+        </tr>
+       
+        <tr>
+            <th>Thursday</th>
+            <td>9:30</td>
+            <td>13:30</td>
+            <td>Javascript</td>
+        </tr>
+       
+        <tr>
+            <th>Friday</th>
+            <td>9:30</td>
+            <td>13:30</td>
+            <td>JLPT</td>
+        </tr>
+        
+        <tr>
+            <th>Saturday</th>
+            <td>9:30</td>
+            <td>13:30</td>
+            <td><button><a href="https://www.google.com/">休み</a></button></td>
+        </tr>
+       
+        <tr>
+            <th>Sunday</th>
+            <td>9:30</td>
+            <td>13:30</td>
+            <td>休み</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1px" cellspacing="0">
+        <tr>
+            <th colspan="4">1</th>
+        </tr>
+        <tr>
+            <th rowspan="2">2</th>
+            <th rowspan="2">3</th>
+            <th colspan="2">4</th>
+        </tr>
+
+        <tr>
+            <th>5</th>
+            <th>6</th>
+        </tr>
+    
+        <tr>
+            <th colspan="4">7</th>
+        </tr>
+    
+    
+    </table>
     <style>
-        button{
-            width: 300px;
-          
-
+        table{
+            color: blue;
         }
-
     </style>
 </body>
 </html>
