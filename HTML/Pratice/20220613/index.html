@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/HTML/Pratice/20220613/Stylesheet.css">
+    <title>HTML Form</title>
+</head>
+
+<body>
+    <!-- Text, Passwrod, Submit, Date, Checkbox -->
+    <h1>HTML Form</h1>
+
+    <form>
+        <label for="fName">First Name</label>
+        <input type="text" placeholder="Enter your first name" id="fName" name="firstname">
+        <br>
+
+        <label for="1Name">Last Name</label>
+        <input type="text" placeholder="Enter your last name" id="1Name" name="lastname">
+        <br>
+
+        <label for="pwd">Password</label>
+        <input type="password" placeholder="Enter your password" id="pwd" name="password">
+        <br>
+
+        <label for="comppwd"> Confirm Password</label>
+        <input type="password" placeholder="Enter your password" id="comppwd" name="confirmpassword">
+        <br>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dateofbirth">
+        <br>
+
+
+        <label>Languages:</label>
+        <br>
+
+        <input type="checkbox" name="" id="chkHtml">
+        <label for="chkHtml">HTML</label>
+
+        <input type="checkbox" name="" id="chkCss">
+        <label for="chkCss">CSS</label>
+
+        <input type="checkbox" name="" id="chkJs">
+        <label for="chkJs">JavaScript</label>
+        <br>
+
+
+        <label for="">Gender:</label>
+        <br>
+
+        <input type="radio" id="rdoMale" name="gender">
+        <label for="rdoMale">Male</label>
+
+        <input type="radio" id="rdoFemale" name="gender">
+        <label for="rdoFemale">Female</label>
+
+        <br>
+        <label>Martial Status:</label>
+        <br>
+
+        <input type="radio" name="Martialstatus" id="rdoSingle">
+        <label for="rdoSingle">Single</label>
+
+        <input type="radio" name="Martialstatus" id="rdoMarried">
+        <label for="rdoMarried">Married</label>
+
+        <input type="radio" name="Martialstatus" id="rdoWidowed">
+        <label for="rdoWidowed">Widowed</label>
+
+        <input type="radio" name="Martialstatus" id="rdoDivorced">
+        <label for="rdoDivorced">Divorced</label>
+        <br>
+
+        <label for="txtAcomment">Comment here</label><br>
+        <textarea name="Commentbox" id="txtAcomment" cols="60" rows="10"
+            placeholder="e.g. My hobby is eating toilet paper"></textarea>
+         <br>
+
+         <label>Country</label><br>
+
+         <select name="" id="">
+             <option value="">Puerto Rico</option>
+             <option value="">Nepal</option>
+             <option value="">Myanmar</option>
+             <option value="">Japan</option>
+         </select>
+         <br>
+        <input type="submit" value="Login">
+        <br>
+
+    </form>
+</body>
+
+</html>
