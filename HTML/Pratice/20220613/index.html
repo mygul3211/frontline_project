@@ -10,32 +10,39 @@
 </head>
 
 <body>
-    <!-- Text, Passwrod, Submit, Date, Checkbox -->
-    <h1>HTML Form</h1>
-
+    
     <form>
-        <label for="fName">First Name</label>
-        <input type="text" placeholder="Enter your first name" id="fName" name="firstname">
-        <br>
+        <table>
+            <td>
+                <h1>HTML Form</h1>
+            </td>
+            <tr>
+                <td><label for="fName">First Name</label></td>
+                <td><input type="text" placeholder="Enter your first name" id="fName" name="firstname"></td>
+            </tr><br>
 
-        <label for="1Name">Last Name</label>
-        <input type="text" placeholder="Enter your last name" id="1Name" name="lastname">
-        <br>
+            <tr>
+                <td><label for="1Name">Last Name</label></td>
+                <td><input type="text" placeholder="Enter your last name" id="1Name" name="lastname"></td>
+            </tr><br>
 
-        <label for="pwd">Password</label>
-        <input type="password" placeholder="Enter your password" id="pwd" name="password">
-        <br>
+            <tr>
+                <td><label for="pwd">Password</label></td>
+                <td><input type="password" placeholder="Enter your password" id="pwd" name="password"></td>
+            </tr><br>
 
-        <label for="comppwd"> Confirm Password</label>
-        <input type="password" placeholder="Enter your password" id="comppwd" name="confirmpassword">
-        <br>
+            <tr>
+                <td><label for="comppwd"> Confirm Password</label></td>
+                <td><input type="password" placeholder="Enter your password" id="comppwd" name="confirmpassword"></td>
+            </tr><br>
 
-        <label for="dob">Date of Birth</label>
-        <input type="date" id="dob" name="dateofbirth">
-        <br>
+            <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td><input type="date" id="dob" name="dateofbirth"></td>
+            </tr><br>
+        </table>
 
-
-        <label>Languages:</label>
+        <label>Language:</label>
         <br>
 
         <input type="checkbox" name="" id="chkHtml">
@@ -78,17 +85,17 @@
         <label for="txtAcomment">Comment here</label><br>
         <textarea name="Commentbox" id="txtAcomment" cols="60" rows="10"
             placeholder="e.g. My hobby is eating toilet paper"></textarea>
-         <br>
+        <br>
 
-         <label>Country</label><br>
+        <label>Country</label><br>
 
-         <select name="" id="">
-             <option value="">Puerto Rico</option>
-             <option value="">Nepal</option>
-             <option value="">Myanmar</option>
-             <option value="">Japan</option>
-         </select>
-         <br>
+        <select name="" id="">
+            <option value="">Puerto Rico</option>
+            <option value="">Nepal</option>
+            <option value="">Myanmar</option>
+            <option value="">Japan</option>
+        </select>
+        <br>
         <input type="submit" value="Login">
         <br>
 
