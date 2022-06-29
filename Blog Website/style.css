@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+}
+.navbar
+{
+    width: 80%;
+    margin: 0;
+    padding: 0px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.logo{
+    width: 250px;
+    cursor: pointer;
+    align-items: left;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+div{
+    text-align: left;
+}
+.center_piece{
+  margin-left: 135px;  
+  width: 600px;
+  border-radius: 5%;
+}
