@@ -15,17 +15,32 @@ body{
     width: 250px;
     cursor: pointer;
     align-items: left;
+    margin-left: 60px;
 }
 .navbar ul li{
     list-style: none;
     display: inline-block;
     margin: 0 20px;
 }
-div{
-    text-align: left;
+ul{
+    margin-left: 20%;
 }
 .center_piece{
   margin-left: 135px;  
-  width: 600px;
-  border-radius: 5%;
+  width: 500px;
+  border-radius: 10%;
+  transition: transform 1s;
+}
+.center_piece:hover{
+    animation-fill-mode: forwards;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.Japan_header{
+    text-align: center;
+    font-family: lu;
+}
+div.navbar{
+    margin: 0;
+    padding: 0;
 }
