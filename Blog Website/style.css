@@ -9,6 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .logo{
@@ -29,12 +30,10 @@ ul{
   margin-left: 135px;  
   width: 500px;
   border-radius: 10%;
-  transition: transform 1s;
+  transition: transform 0.3s;
 }
 .center_piece:hover{
-    animation-fill-mode: forwards;
-    border: 1px solid grey;
-    cursor: pointer;
+    -webkit-transform: scale(1.5);
 }
 .Japan_header{
     text-align: center;
@@ -43,4 +42,18 @@ ul{
 div.navbar{
     margin: 0;
     padding: 0;
+}
+.center_piece_2{
+    float: right;
+    width: 500px;
+    border-radius: 10%;
+    margin-right: 135px;
+    transition: transform 0.3s;
+}
+.center_piece_2:hover{
+    -webkit-transform:scale(1.5);
+
+}
+.underline{
+    border: solid whitesmoke;
 }
